@@ -1,0 +1,35 @@
+{
+  "name": "react-assign",
+  "version": "0.1.0",
+  "description": "Assign values to objects without boilerplate",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zzarcon/react-assign.git"
+  },
+  "author": {
+    "name": "zzarcon",
+    "email": "hezarco@gmail.com",
+    "url": "hectorleonzarco.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "amend": "git add . && git commit --amend --reuse-message=HEAD",
+    "push": "git push --tags && git push",
+    "release": "npm version patch --force && npm run amend && npm run push && npm publish"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "react",
+    "assign",
+    "value",
+    "property",
+    "event",
+    "react-addon"
+  ]
+}
