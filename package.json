@@ -1,7 +1,7 @@
 {
   "name": "react-assign",
   "version": "0.1.2",
-  "description": "Assign values to objects without boilerplate",
+  "description": "Update React state without boilerplate",
   "license": "MIT",
   "repository": {
     "type": "git",
